@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferramentas Administrativas - Diretoria de Regulação do Acesso</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" /></head>
+<body>
+    <div class="container">
+        <!-- ===== CABEÇALHO ===== -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-left">
+                    <span class="badge"><i class="fas fa-tools"></i> Painéis e Consolidados</span>
+                    <h1><i class="fas fa-hospital"></i>Diretoria de Regulação do Acesso</h1>
+                    <span class="diretoria">
+                        <i class="fas fa-user-tie"></i> Diretora: Paloma Morais
+                    </span>
+                </div>
+                <div class="creditos">
+                    <i class="fas fa-code"></i> Página desenvolvida por Ana Paula Araújo da Silva — Matric. 201704
+                </div>
+            </div>
+        </header>
+
+        <!-- ===== BARRA DE TÍTULO E PESQUISA ===== -->
+        <div class="page-title-bar">
+            <div class="title-main">
+                <i class="fas fa-th-large"></i>
+                Ferramentas Administrativas
+            </div>
+            <div class="search-wrapper">
+                <i class="fas fa-search"></i>
+                <input type="text" class="global-search-input" placeholder="Buscar ferramentas, painéis ou documentos..." />
+            </div>
+        </div>
+
+        <!-- ===== NAVEGAÇÃO POR ABAS ===== -->
+        <div class="tabs-nav">
+            <button class="tab-btn active" data-tab="consultas">
+                <i class="fas fa-user-md"></i> Consultas Especializadas
+            </button>
+            <button class="tab-btn" data-tab="oci">
+                <i class="fas fa-stethoscope"></i> OCI
+            </button>
+            <button class="tab-btn" data-tab="cirurgia">
+                <i class="fas fa-procedures"></i> Cirurgia Eletiva
+            </button>
+            <button class="tab-btn" data-tab="exames">
+                <i class="fas fa-microscope"></i> Média Complexidade
+            </button>
+            <button class="tab-btn" data-tab="telefones">
+                <i class="fas fa-phone-alt"></i> Telefones Úteis
+            </button>
+            <button class="tab-btn" data-tab="links">
+                <i class="fas fa-link"></i> Links Importantes
+            </button>
+        </div>
+
+        <!-- ===== CONTEÚDO DAS ABAS ===== -->
+        
+        <!-- ABA CONSULTAS ESPECIALIZADAS -->
+        <div class="tab-content active" id="tab-consultas">
+            <div class="categories-grid">
+                <!-- Teleconsulta -->
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <span class="title-icon"><i class="fas fa-phone-volume"></i></span>
+                        <span class="title-text">Teleconsulta- Atenção Especializada</span>
+                        <span class="title-badge">Atualizado</span>
+                    </h2>
+                    <div class="card-grid">
+                        <a href="https://docs.google.com/spreadsheets/d/1NrLJ7ulMx93VXse-k8C4PX7FkGPLEZ0yTQSIVQeNItg/edit?gid=175443153#gid=175443153" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-chart-bar"></i></div>
+                            <div class="card-title">Fila de espera Ligações</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1-I6ZwiP6xXu3qMp5uqr1B9dH6cpyYkO8Ge5UA6dcIxQ/edit?gid=509279936#gid=509279936" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-chart-bar"></i></div>
+                            <div class="card-title">Solicitações para Agendamento</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/11X7DQcngdN51yFYodEWBmMCc8Pi-YFbgQ4IQ7Ca93IU/edit?gid=0#gid=0" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-calendar-check"></i></div>
+                            <div class="card-title">Controle de Agendamentos</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/11X7DQcngdN51yFYodEWBmMCc8Pi-YFbgQ4IQ7Ca93IU/edit?gid=1603937153#gid=1603937153" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-chart-pie"></i></div>
+                            <div class="card-title">Consolidado</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1ZwzPVQAifNLfJJO1lFr1BvQd6e6G3yC5C2H4Ry2N43k/edit?gid=621702727#gid=621702727" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-brain"></i></div>
+                            <div class="card-title">Fila Neurologia - Requalificação dos Retornos</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1_WJhJQQXcxn0Yucyr_rv_HuKs7wc3p4oeb69oyhoPU4/edit?usp=sharing" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-sync-alt"></i></div>
+                            <div class="card-title">Reaproveitamento</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://regulacaoconsolidados-dot.github.io/contatosdasubs/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-phone-alt"></i></div>
+                            <div class="card-title">Contatos das UBS</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://portal-feluma.sydle.com/home" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-laptop-medical"></i></div>
+                            <div class="card-title">Plataforma Feluma</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://cadastro.saude.gov.br/segcartao/?contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fcadastro.saude.gov.br%2Fsegcartao&request_id=-8519814493389994660&authn_try_count=0&locale=es_ES&resource_url" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-id-card"></i></div>
+                            <div class="card-title">CadWEB</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Painéis Central de Marcação de Consultas -->
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <span class="title-icon"><i class="fas fa-chart-line"></i></span>
+                        <span class="title-text">Painéis Central de Marcação de Consultas</span>
+                        <span class="title-badge">Novo</span>
+                    </h2>
+                    <div class="card-grid">
+                        <a href="https://compartilhacmc-commits.github.io/pendenciasgeral/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-exclamation-triangle"></i></div>
+                            <div class="card-title">Pendências Geral</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/consolidadoagendados/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-clipboard-list"></i></div>
+                            <div class="card-title">Agendamentos Geral</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/ofertacmc/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-calendar-alt"></i></div>
+                            <div class="card-title">Agendamentos Mês Atual/Próximo</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/profissionaisnarede/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-user-md"></i></div>
+                            <div class="card-title">Profissionais Médicos Ativos</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Fluxos CMC -->
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <span class="title-icon"><i class="fas fa-code-branch"></i></span>
+                        <span class="title-text">Em Atualização... Fluxos CMC</span>
+                        <span class="title-badge warning">Em breve</span>
+                    </h2>
+                    <div class="card-grid">
+                        <a href="https://compartilhacmc-commits.github.io/arquivosfixos/ESPECIALIDADES.html" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-list-ul"></i></div>
+                            <div class="card-title">Lista das Especialidades</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/arquivosfixos/resumo_fluxos.html" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-stream"></i></div>
+                            <div class="card-title">Resumo dos Fluxos</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://portal.contagem.mg.gov.br/nota-tecnica" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-file-alt"></i></div>
+                            <div class="card-title">Notas Técnicas</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Painéis Pendências por Distrito -->
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <span class="title-icon"><i class="fas fa-hourglass-half"></i></span>
+                        <span class="title-text">Painéis Pendências por Distrito</span>
+                        <span class="title-badge">8 distritos</span>
+                    </h2>
+                    <div class="card-grid">
+                        <a href="https://compartilhacmc-commits.github.io/distritoeldorado/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="card-title">Pendências Eldorado</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/distritoeldorado/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="card-title">Pendências Sede</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/distritovargemdasflores/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="card-title">Pendências Vargem das Flores</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/distritonacional/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="card-title">Pendências Nacional</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/distritoressaca/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="card-title">Pendências Ressaca</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/distritoindustrial/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="card-title">Pendências Industrial</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/distritopetrolandia/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="card-title">Pendências Petrolândia</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/distritoriacho/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="card-title">Pendências Riacho</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Banco de Dados -->
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <span class="title-icon"><i class="fas fa-database"></i></span>
+                        <span class="title-text">Banco de Dados que Alimentam os Painéis</span>
+                        <span class="title-badge">12 planilhas</span>
+                    </h2>
+                    <div class="card-grid">
+                        <a href="https://docs.google.com/spreadsheets/d/11X7DQcngdN51yFYodEWBmMCc8Pi-YFbgQ4IQ7Ca93IU/edit?gid=0#gid=0" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Agendamentos Teleconsulta</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/14DiFK9EW36s8ntkukyhiRMJxcX0ghG5XTzWb1TwpI2Q/edit?gid=0#gid=0" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Agendamentos Geral</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1puNbYysRBj-5CY6fhnHNnYd9OH96cl7guMFBOLeYZV4/edit?gid=1698493941#gid=1698493941" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Agendamentos Diários</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/16CXd1TVf2IfTDiPzRCxUNWk6rCRoEw6WDfcybVoarnA/edit?gid=1407399146#gid=1407399146" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Profissionais Médicos</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1r6NLcVkVLD5vp4UxPEa7TcreBpOd0qeNt-QREOG4Xr4/edit?gid=278071504#gid=278071504" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Pendências Eldorado</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1IHknmxe3xAnfy5Bju_23B5ivIL-qMaaE6q_HuPaLBpk/edit?gid=278071504#gid=278071504" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Pendências Vargem Flores</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1RPf2bfQVoM1FqnyA-0P8uPTJ_PG4I2Ce6lXnk54ixfc/edit?gid=278071504#gid=278071504" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Pendências Sede</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/14eUVIsWPubMve4DhVjVwlh7gin-qVyN3PspkwQ1PZMg/edit?gid=278071504#gid=278071504" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Pendências Industrial</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://drive.google.com/drive/folders/1zRHfbI897ZRTBKLeRbiSfjMy8RmR_MJg" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Pendências Ressaca</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1Z9Uf5MGm5tClVDR95SUpwOjivAdqEVUfDj7mIuRLf4s/edit?gid=278071504#gid=278071504" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Pendências Petrolândia</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1lMGO9Hh_qL9OKI270fPL7lxadr-BZN9x_ZtmQeX6OcA/edit?gid=278071504#gid=278071504" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Pendências Nacional</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1367XyjVDYyDWo3vUz6Hd_zEqLAJkH_c1MwlvtZnpmUc/edit?gid=278071504#gid=278071504" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Pendências Riacho</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Feluma -->
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <span class="title-icon"><i class="fas fa-laptop-medical"></i></span>
+                        <span class="title-text">Feluma</span>
+                        <span class="title-badge">Portal</span>
+                    </h2>
+                    <div class="card-grid">
+                        <a href="https://portal-feluma.sydle.com/home" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-globe"></i></div>
+                            <div class="card-title">Plataforma Feluma</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://portal.contagem.mg.gov.br/imgeditor/file/Regula%C3%A7%C3%A3o/Central%20de%20marca%C3%A7%C3%A3o/NT%2025%20-%202025%20-%20Regula%C3%A7%C3%A3o%20de%20Consultas%20Especializadas%20via%20sistema%20VIVVER.pdf" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-file-pdf"></i></div>
+                            <div class="card-title">NT-25/2025</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://portal.contagem.mg.gov.br/central-de-marcacao-de-consultas/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-file-medical-alt"></i></div>
+                            <div class="card-title">Notas Técnicas</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=1UdBOCDlIvA" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fab fa-youtube"></i></div>
+                            <div class="card-title">Tutorial YouTube</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://forms.office.com/pages/responsepage.aspx?id=6TkneO0BV0yBmaJIQh4A4v7lUCKmmeREvVUmW50PDW5UMzRaUlRFRjI0N01LMERVWjdPQlY5ODlUWS4u&route=shorturl" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-user-plus"></i></div>
+                            <div class="card-title">Cadastro Feluma</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- ABA OCI -->
+        <div class="tab-content" id="tab-oci">
+            <div class="categories-grid">
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <span class="title-icon"><i class="fas fa-chart-pie"></i></span>
+                        <span class="title-text">Painel OCI</span>
+                        <span class="title-badge">Consolidado</span>
+                    </h2>
+                    <div class="card-grid">
+                        <a href="https://regulacaoconsolidados-dot.github.io/ociconsolidado/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-chart-bar"></i></div>
+                            <div class="card-title">Painel OCI</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1BONeij455aKawVr1iyskMLAJMKeBHzWmUZp_E-TDUWo/edit?gid=2108990586#gid=2108990586" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-database"></i></div>
+                            <div class="card-title">Banco de Dados OCI</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                    </div>
+                </section>
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <span class="title-icon"><i class="fas fa-database"></i></span>
+                        <span class="title-text">Banco de Dados - Consolidar OCI</span>
+                        <span class="title-badge">8 planilhas</span>
+                    </h2>
+                    <div class="card-grid">
+                        <a href="https://prefeituracontagem-my.sharepoint.com/:x:/r/personal/hassan_zibaoui_contagem_mg_gov_br/_layouts/15/Doc.aspx?sourcedoc=%7Bd7b85dc9-61af-4ea9-bb7f-b542e5c4d850%7D&action=default&CID=6ac5c827-af01-49ea-9fa3-689fed995aa7&_SRM=2%3AE%3A10" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Planilha OCI</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1vjdotHMOE1gn4Wo45WURx0JCn7l8zP0BQpaVs3WDrw4/edit?gid=233267268#gid=233267268" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-heart"></i></div>
+                            <div class="card-title">OCI Cardiologia 1° versão</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1vjdotHMOE1gn4Wo45WURx0JCn7l8zP0BQpaVs3WDrw4/edit?gid=233267268#gid=233267268" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-heart"></i></div>
+                            <div class="card-title">OCI Cardiologia 2026</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1cQzwM6L9omcZVG7routPTSE3fZSQId31w-A6y4Sc24c/edit?gid=621858947#gid=621858947" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-female"></i></div>
+                            <div class="card-title">OCI Mama 1° versão</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1U14Nf5EOiz8PI5H6tnYZAUeZzfUM43unywXFEwWBTAQ/edit" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-female"></i></div>
+                            <div class="card-title">OCI Mama 2026</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1G1YHRyt4ILeYMAM-yK_eYZi4wtHaMqwnuQWDeihhmIA/edit" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-uterus"></i></div>
+                            <div class="card-title">OCI Utero 1° versão</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/17ifFIdWqHq3COeEBJifq6keumcWz-ppr9d4uSPhCBow/edit" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-uterus"></i></div>
+                            <div class="card-title">OCI Utero 2026</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://docs.google.com/spreadsheets/d/1PAaIUxgFU8CE3pFGzHG4OCAdtSHNrVIXc8suaPAXI50/edit" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-bone"></i></div>
+                            <div class="card-title">OCI Ortopedia</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- ABA CIRURGIA ELETIVA -->
+        <div class="tab-content" id="tab-cirurgia">
+            <div class="categories-grid">
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <span class="title-icon"><i class="fas fa-chart-pie"></i></span>
+                        <span class="title-text">Painéis Cirurgia Eletiva</span>
+                        <span class="title-badge">1ª Versão</span>
+                    </h2>
+                    <div class="card-grid">
+                        <a href="https://regulacaoconsolidados-dot.github.io/cirurgiaseletivas/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-chart-bar"></i></div>
+                            <div class="card-title">Painel Cirurgia Eletiva (Controle e Avaliação)</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://regulacaoconsolidados-dot.github.io/cirurgiaeletivadiretoria/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-chart-bar"></i></div>
+                            <div class="card-title">Painel Cirurgia Eletiva (Diretoria)</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- ABA EXAMES -->
+        <div class="tab-content" id="tab-exames">
+            <div class="categories-grid">
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <span class="title-icon"><i class="fas fa-folder-open"></i></span>
+                        <span class="title-text">Arquivos Exames</span>
+                        <span class="title-badge">Média Complexidade</span>
+                    </h2>
+                    <div class="card-grid">
+                        <a href="https://docs.google.com/spreadsheets/d/1s_HDG2-eBdYVaHdw_4e2q2ORuUePdZuLJQmIT7Z-esI/edit?pli=1&gid=0#gid=0" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-ban"></i></div>
+                            <div class="card-title">Exames sem prestador</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- ABA TELEFONES ÚTEIS -->
+        <div class="tab-content" id="tab-telefones">
+            <div class="categories-grid">
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <span class="title-icon"><i class="fas fa-phone-alt"></i></span>
+                        <span class="title-text">Telefones Úteis</span>
+                        <span class="title-badge">Contatos</span>
+                    </h2>
+                    <div class="card-grid">
+                        <a href="https://regulacaoconsolidados-dot.github.io/contatosdasubs/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-phone-alt"></i></div>
+                            <div class="card-title">Telefones das UBS's</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/arquivosfixos/CEAPS_TELEFONES.html" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-phone-alt"></i></div>
+                            <div class="card-title">Telefones Ceaps</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/arquivosfixos/TELEFONES_IRIA_DINIZ.html" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-phone-alt"></i></div>
+                            <div class="card-title">Telefones Iria Diniz</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/arquivosfixos/TELEFONES_CCE_OUTROS.html" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-phone-alt"></i></div>
+                            <div class="card-title">Telefones CCE's e Outros</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/arquivosfixos/TELEFONES_DIVERSOS.html" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-phone-alt"></i></div>
+                            <div class="card-title">Telefones Diversos</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/arquivosfixos/TELEFONES_UNIDADES_DE_CONTAGEM.html" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-phone-alt"></i></div>
+                            <div class="card-title">Telefones – Todas as Unidades</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/arquivosfixos/DISTRITOS_CONTATOS.html" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-phone-alt"></i></div>
+                            <div class="card-title">Telefones Todos os Distritos</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://compartilhacmc-commits.github.io/arquivosfixos/UPA_TELEFONES.html" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-phone-alt"></i></div>
+                            <div class="card-title">Telefones Upas</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- ABA LINKS IMPORTANTES -->
+        <div class="tab-content" id="tab-links">
+            <div class="categories-grid">
+                <section class="category-section">
+                    <h2 class="category-title">
+                        <span class="title-icon"><i class="fas fa-link"></i></span>
+                        <span class="title-text">Links Importantes</span>
+                        <span class="title-badge">Sistemas</span>
+                    </h2>
+                    <div class="card-grid">
+                        <a href="https://www.contagem-mg.vivver.com/desktop" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-globe"></i></div>
+                            <div class="card-title">Sistema Vivver</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://portal.contagem.mg.gov.br/nota-tecnica" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-file-alt"></i></div>
+                            <div class="card-title">Notas Técnicas Diretoria</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://portal.contagem.mg.gov.br/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-university"></i></div>
+                            <div class="card-title">Prefeitura de Contagem</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://portal.contagem.mg.gov.br/secretaria-de-saude" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-hospital-alt"></i></div>
+                            <div class="card-title">Secretaria de Saúde</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://portal.contagem.mg.gov.br/portal/paginas-dinamicas-categoria/15/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-user-tie"></i></div>
+                            <div class="card-title">Portal do Servidor</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://geoprocessamento.contagem.mg.gov.br/portal/apps/sites/#/geocontagem" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-map"></i></div>
+                            <div class="card-title">Aplicativos Contagem</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://geoprocessamento.contagem.mg.gov.br/portal/apps/experiencebuilder/experience/?id=1cc51ed1bb7546e092ecad2935cc425d" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-pills"></i></div>
+                            <div class="card-title">Aqui tem Remédio</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://portal.contagem.mg.gov.br/atencao-primaria" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-location-dot"></i></div>
+                            <div class="card-title">Endereço das Unidades</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://geoprocessamento.contagem.mg.gov.br/portal/apps/webappviewer/index.html?id=a29dd6c9d5944c51998c3ffa1efe0c70" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-building"></i></div>
+                            <div class="card-title">Equipamentos da Saúde</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://cadastro.saude.gov.br/segcartao/?contextType=external&username=string&contextValue=%2Foam&password=sercure_string&challenge_url=https%3A%2F%2Fcadastro.saude.gov.br%2Fsegcartao&request_id=-8519814493389994660&authn_try_count=0&locale=es_ES&resource_url" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-id-card"></i></div>
+                            <div class="card-title">CadWeb</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://cnesadm.datasus.gov.br/cnesadm/publico/usuarios/cadastro" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-search"></i></div>
+                            <div class="card-title">Pesquisa CNS</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://app.powerbi.com/view?r=eyJrIjoiYTRiZDcyZWYtMzAwNS00NmYyLTk3N2EtYWEwYTk2NTFhMmY1IiwidCI6ImFlODYzMzdlLTU3NWUtNDMzMC05NDc2LTkzZGU2ODJiMDAyMCJ9" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-map-pin"></i></div>
+                            <div class="card-title">Pesquisa por endereço</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://egestoraps.saude.gov.br/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-chart-simple"></i></div>
+                            <div class="card-title">E-gestor</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://cnes.datasus.gov.br/pages/estabelecimentos/consulta.jsp" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-hospital"></i></div>
+                            <div class="card-title">CNES</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="http://sigtap.datasus.gov.br/tabela-unificada/app/sec/inicio.jsp" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-table"></i></div>
+                            <div class="card-title">Tabela Sigtap</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://siscan.saude.gov.br/login.jsf" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-x-ray"></i></div>
+                            <div class="card-title">Siscan</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://notifica.saude.gov.br/login" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-bell"></i></div>
+                            <div class="card-title">Esus Notifica</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                        <a href="https://crmmg.org.br/" class="card" target="_blank" rel="noopener">
+                            <div class="card-icon-wrapper"><i class="fas fa-user-md"></i></div>
+                            <div class="card-title">CRM</div>
+                            <div class="card-btn">Acessar <i class="fas fa-arrow-right"></i></div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- ===== RODAPÉ ===== -->
+        <footer class="footer">
+            <div class="footer-brand">
+                <i class="fas fa-heartbeat"></i> Diretoria de Regulação do Acesso
+            </div>
+            <div class="footer-divider"></div>
+            <p>Todos os direitos reservados &copy; 2026</p>
+            <p class="footer-credit">Desenvolvido por Ana P. A. Silva — Matric. 201704</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
